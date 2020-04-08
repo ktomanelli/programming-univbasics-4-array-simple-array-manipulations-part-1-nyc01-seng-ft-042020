@@ -8,7 +8,8 @@ def using_unshift(arr, str)
 end
 
 def using_shift(arr, str)
-  arr.shift(str)
+  ele=arr.shift(str)
+  ele
 end
 
 def using_pop(arr)
