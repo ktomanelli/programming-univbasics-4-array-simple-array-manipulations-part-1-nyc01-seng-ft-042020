@@ -7,8 +7,8 @@ def using_unshift(arr, str)
   arr.unshift(str)
 end
 
-def using_shift(arr, str)
-  ele=arr.shift(str)
+def using_shift(arr)
+  ele=arr.shift()
   ele
 end
 
