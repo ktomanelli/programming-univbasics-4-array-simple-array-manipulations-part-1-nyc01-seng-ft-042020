@@ -11,9 +11,9 @@ def using_pop(arr)
   arr.pop()
 end
 
-def pop_with_args(arr,num=2)
-  num.times(arr.pop())
-  arr
+def pop_with_args(arr)
+  eles = (arr.pop(2))
+  eles
 end
 
 def shift_with_args(arr,num=2)
