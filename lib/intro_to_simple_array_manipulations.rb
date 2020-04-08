@@ -7,6 +7,10 @@ def using_unshift(arr, str)
   arr.unshift(str)
 end
 
+def using_shift(arr, str)
+  arr.shift(str)
+end
+
 def using_pop(arr)
   arr.pop()
 end
