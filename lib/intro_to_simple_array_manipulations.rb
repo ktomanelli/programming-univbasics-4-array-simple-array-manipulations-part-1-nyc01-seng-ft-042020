@@ -5,12 +5,10 @@ end
 
 def using_unshift(arr, str)
   arr.unshift(str)
-  arr
 end
 
-def using_pop(arr, str)
-  arr.pop(str)
-  arr
+def using_pop(arr)
+  arr.pop()
 end
 
 def pop_with_args(arr,num=2)
